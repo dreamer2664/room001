@@ -1,0 +1,17 @@
+package,category,exact_name,product_code,retailer,url,price_eur,dimensions_WxDxH_cm,package_longest_cm,package_weight_kg,delivery_eur,assembly_eur,total_with_delivery_assembly,notes
+A Best Value,Bed frame,Letto Conca senza contenitore 80x190,7XH8,Mondo Convenienza,https://www.mondoconv.it/conca-7xh8.html,80,91x204x118,198,30,98,0,493 (with other items),Cheap basic - 91x204 outer - 2 colli
+A Best Value,Rete,Rete Vienna 80x190x35,F6YU,Mondo Convenienza,https://www.mondoconv.it/vienna-f6yu.html,48,80x190x35,190,15,0,0,Included in 98,48€ rete
+A Best Value,Mattress,Materasso Premium 80x190x20,Z7IW,Mondo Convenienza,https://www.mondoconv.it/premium-z7iw.html,69,80x190x20,80,10,0,0,Included in 98,69€ molle
+A Best Value,Desk,Scrivania Aurora 120x60x73,8VXF,Mondo Convenienza,https://www.mondoconv.it/aurora-8vxf.html,38,120x60x73,130,20,0,0,Included in 98,38€ cheapest
+A Best Value,Wardrobe,Armadio Donatella 2 ante battenti 81x52x236 promo,6BJV,Mondo Convenienza,https://www.mondoconv.it/donatella-6bjv.html,120,81x52x236,200,30,0,0,Included in 98,120€ promo vs 178 list - battenti need 50cm swing
+A Best Value,Storage,Comodino Donatella 40x40x50,COMODINO,Mondo Convenienza,https://www.mondoconv.it/donatella-comodino.html,40,40x40x50,50,10,0,0,Included in 98,Optional bedside
+A Best Value,Delivery,Trasporto e montaggio fascia B min,DELIVERY,Mondo Convenienza,https://www.mondoconv.it/consegna-montaggio/trasporto-e-montaggio,98,NA,NA,NA,98,0,98,Min 98€ for mobili <613€ or 16% if >613 - within 100km
+B Best Quality,Bed storage,Letto Selene contenitore 80x190,SELENE,Mondo Convenienza,https://www.mondoconv.it/letti/letti-singoli/letti-contenitore.html,185,95x204x107,204,35,98,0,829 mixed,Contenitore 23cm - with rete
+B Best Quality,Mattress,Materasso Silver fast 80x190x25,33UE,Mondo Convenienza,https://www.mondoconv.it/silver-fast-33ue.html,98,80x190x25,80,12,0,0,Included,98€ memory 25cm
+B Best Quality,Desk,Scrivania Spring 3 cassetti 120x60x73,SCYJ,Mondo Convenienza,https://www.mondoconv.it/spring-scyj.html,144,120x60x73,130,25,0,0,Included,144€ with drawers
+B Best Quality,Wardrobe,PAX BERGSBO 100x60x201,09503011,IKEA Italia,https://www.ikea.com/it/it/p/pax-bergsbo-guardaroba-bianco-bianco-s09503011/,215,100x60x201,210,49.45,49,40,829 total with others,IKEA delivery 49 + montaggio 40 - package 210cm longest
+B Best Quality,Storage,KALLAX scaffale 77x147,NA,IKEA Italia,https://www.ikea.com/it/it/p/kallax-scaffale-bianco-80275887/,50,77x42x147,150,20,0,0,Included,Optional shelf
+C Cheapest,Bed,JYSK KILDEN 80x190,NA,JYSK,https://jysk.it/camera-da-letto/letti,100,84x206x80,195,18,30,0,396,100€ + delivery 30
+C Cheapest,Mattress,JYSK BILLEFJORD 80x190x10,NA,JYSK,https://jysk.it/camera-da-letto/materassi,40,80x190x10,80,8,0,0,Included,40€ thin - need topper
+C Cheapest,Desk,Aurora 120x60x73,8VXF,Mondo Convenienza,https://www.mondoconv.it/aurora-8vxf.html,38,120x60x73,130,20,98,0,Included in 98,38€
+C Cheapest,Wardrobe,Donatella 81x52x236 promo,6BJV,Mondo Convenienza,https://www.mondoconv.it/donatella-6bjv.html,120,81x52x236,200,30,0,0,Included,120€

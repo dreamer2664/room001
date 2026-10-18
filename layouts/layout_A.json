@@ -1,0 +1,45 @@
+{
+  "id": "A",
+  "name": "Bed South EW 80x190, Desk North 100x60, Ward West 55x80",
+  "description": "Best value, bed south to avoid damp, desk north west to clear door swing, ward west middle adjusted to avoid window",
+  "room_nominal": {"S":218,"W":265,"door_w":80,"win_w":80},
+  "room_worst": {"S":211,"W":264,"door_w":90,"win_w":95},
+  "furniture_nominal": [
+    {"name":"Bed 80x190 EW","type":"bed","x":13,"y":1.5,"w":195,"h":85,"height_cm":50,"mattress":"80x190"},
+    {"name":"Desk 100x60 North","type":"desk","x":11.5,"y":203.5,"w":100,"h":60,"height_cm":73},
+    {"name":"Ward 55x80 West","type":"wardrobe","x":80,"y":86.5,"w":55,"h":80,"height_cm":236},
+    {"name":"Chair zone North","type":"chair","x":11.5,"y":133.5,"w":100,"h":70,"height_cm":50}
+  ],
+  "furniture_worst": [
+    {"name":"Bed 80x190 EW","type":"bed","x":13,"y":1.5,"w":195,"h":85,"height_cm":50},
+    {"name":"Desk 100x60 North","type":"desk","x":13.5,"y":202.5,"w":100,"h":60,"height_cm":73},
+    {"name":"Ward 55x80 West adjusted","type":"wardrobe","x":95,"y":86.5,"w":55,"h":80,"height_cm":236},
+    {"name":"Chair zone North","type":"chair","x":13.5,"y":132.5,"w":100,"h":70,"height_cm":50}
+  ],
+  "clearances_nominal_cm": {
+    "bed-desk":117.0,
+    "bed-ward":0.0,
+    "desk-ward":37.0,
+    "chair-bed":47.0,
+    "chair-ward":33.0,
+    "colors": {"red":"<60","amber":"60-70","green":"70+"},
+    "notes":"Many red <60 require sideways squeezing"
+  },
+  "clearances_worst_cm": {
+    "bed-desk":116.0,
+    "bed-ward":0.0,
+    "desk-ward":36.0,
+    "chair-bed":46.0,
+    "chair-ward":32.0
+  },
+  "man_walk": {
+    "door_to_bed":"Path west then south, clearance 47 red between chair and bed, requires sideways",
+    "door_to_desk_chair":"Path north-west, need to go around ward, clearance 37 red",
+    "door_to_window":"Path west to window, need to clear ward (ward at 80,86.5 touches window edge, need to squeeze)",
+    "door_to_wardrobe":"Path west, ward at 80,86.5, door swing clear (east edge 135<=138 nominal, 150>121 worst but distance 100>90 safe)"
+  },
+  "pros_cons": {
+    "pros":["Cheapest, avoids damp, desk below sill? No desk north not under window, ward west middle avoids E_low corner, bed south avoids door"],
+    "cons":["Red clearances, ward at 80,86.5 touches window edge (needs precise x>=80), chair-ward overlap if not adjusted, bed-ward touching 0"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "B",
+  "name": "Bed NS West 85x195, Desk South 120x60, Ward East South 55x80",
+  "description": "Bed NS west to avoid door, desk south, ward east south below door",
+  "room_nominal": {"S":218,"W":265},
+  "furniture_nominal": [
+    {"name":"Bed 80x190 NS West","type":"bed","x":11.5,"y":68.5,"w":85,"h":195,"height_cm":50},
+    {"name":"Desk 120x60 South","type":"desk","x":100,"y":1.5,"w":120,"h":60,"height_cm":73},
+    {"name":"Ward 55x80 East South","type":"wardrobe","x":161.5,"y":0,"w":55,"h":80,"height_cm":236},
+    {"name":"Chair South","type":"chair","x":100,"y":61.5,"w":120,"h":70,"height_cm":50}
+  ],
+  "clearances_nominal_cm": {
+    "bed-desk":7.9,
+    "bed-ward":65.0,
+    "desk-ward":28.5,
+    "chair-bed":3.5,
+    "chair-ward":28.5
+  },
+  "notes":"Very tight, bed-desk 7.9 red, chair-bed 3.5 red"
+}

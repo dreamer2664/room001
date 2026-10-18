@@ -1,0 +1,19 @@
+{
+  "id": "C",
+  "name": "Bed NS West, Desk East vertical 60x120, Ward West South",
+  "description": "Desk east vertical saves space, L-shaped",
+  "room_nominal": {"S":218,"W":265},
+  "furniture_nominal": [
+    {"name":"Bed 80x190 NS West","type":"bed","x":11.5,"y":68.5,"w":85,"h":195,"height_cm":50},
+    {"name":"Desk East vertical 60x120","type":"desk","x":156.5,"y":0,"w":60,"h":120,"height_cm":73},
+    {"name":"Ward West South 55x80","type":"wardrobe","x":1.5,"y":131.5,"w":55,"h":80,"height_cm":236},
+    {"name":"Chair East","type":"chair","x":86.5,"y":0,"w":70,"h":120,"height_cm":50}
+  ],
+  "clearances_nominal_cm": {
+    "bed-desk":53.5,
+    "bed-ward":33.5,
+    "desk-ward":70.0,
+    "chair-bed":3.5,
+    "chair-ward":28.5
+  }
+}

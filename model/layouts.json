@@ -1,0 +1,89 @@
+[
+  {
+    "id": "A",
+    "name": "Bed South, Desk North, Wardrobe East",
+    "furniture": [
+      {
+        "x": 13,
+        "y": 1.5,
+        "w": 195,
+        "h": 85,
+        "name": "Bed 80x190 frame 195x85 south",
+        "mattress": "80x190"
+      },
+      {
+        "x": 38.5,
+        "y": 203.5,
+        "w": 140,
+        "h": 60,
+        "name": "Desk 140x60 north"
+      },
+      {
+        "x": 156.5,
+        "y": 65,
+        "w": 60,
+        "h": 100,
+        "name": "Wardrobe 100x60 sliding east below door",
+        "type": "sliding"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "name": "Bed North, Desk East, Wardrobe South-West",
+    "furniture": [
+      {
+        "x": 12,
+        "y": 168.5,
+        "w": 195,
+        "h": 95,
+        "name": "Bed 90x190 frame 195x95 north",
+        "mattress": "90x190"
+      },
+      {
+        "x": 156.5,
+        "y": 65,
+        "w": 60,
+        "h": 120,
+        "name": "Desk 120x60 east below door (vertical)"
+      },
+      {
+        "x": 1.5,
+        "y": 1.5,
+        "w": 80,
+        "h": 60,
+        "name": "Wardrobe 80x55 sliding south-west",
+        "type": "sliding"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "name": "Bed South 90x200, Desk North-West, Wardrobe East",
+    "furniture": [
+      {
+        "x": 3,
+        "y": 1.5,
+        "w": 205,
+        "h": 95,
+        "name": "Bed 90x200 frame 205x95 south",
+        "mattress": "90x200"
+      },
+      {
+        "x": 20,
+        "y": 203.5,
+        "w": 120,
+        "h": 60,
+        "name": "Desk 120x60 north-west"
+      },
+      {
+        "x": 161.5,
+        "y": 70,
+        "w": 55,
+        "h": 80,
+        "name": "Wardrobe 80x55 sliding east",
+        "type": "sliding"
+      }
+    ]
+  }
+]

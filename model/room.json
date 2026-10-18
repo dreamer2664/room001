@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "orientation": "N = top of plan",
+    "origin": "SW interior corner (0,0), x east, y north, units cm",
+    "date": "2026-10-18"
+  },
+  "dimensions": {
+    "south_wall_total": {
+      "nominal": 218,
+      "min": 211,
+      "max": 219,
+      "tag": "READ-FROM-SKETCH",
+      "note": "Could be 2.12 misread; +-1 cm; testing 211-219",
+      "unit": "cm"
+    },
+    "north_wall_between_corners": {
+      "nominal": 197,
+      "min": 196,
+      "max": 198,
+      "tag": "READ-FROM-SKETCH",
+      "note": "+-1 cm",
+      "unit": "cm"
+    },
+    "west_wall_total": {
+      "nominal": 265,
+      "min": 264,
+      "max": 266,
+      "tag": "READ-FROM-SKETCH",
+      "note": "+-1 cm",
+      "unit": "cm"
+    },
+    "north_to_window_north_edge": {
+      "nominal": 97,
+      "min": 96,
+      "max": 98,
+      "tag": "READ-FROM-SKETCH",
+      "note": "From north wall interior to window north jamb",
+      "unit": "cm"
+    },
+    "east_below_door": {
+      "nominal": 157,
+      "min": 156,
+      "max": 158,
+      "tag": "READ-FROM-SKETCH",
+      "note": "Wall below door on east wall",
+      "unit": "cm"
+    },
+    "window_plus_below": {
+      "nominal": 168,
+      "min": 166,
+      "max": 170,
+      "tag": "DERIVED",
+      "formula": "west_wall_total - north_to_window_north_edge",
+      "unit": "cm"
+    },
+    "north_plus_door": {
+      "nominal": 108,
+      "min": 106,
+      "max": 110,
+      "tag": "DERIVED",
+      "formula": "west_wall_total - east_below_door",
+      "unit": "cm"
+    }
+  },
+  "openings": {
+    "window_width": {
+      "nominal": 80,
+      "min": 70,
+      "max": 95,
+      "tag": "ESTIMATED",
+      "note": "Range 0.70-0.95, single-leaf tilt-and-turn, hinged NORTH, inward swing radius = leaf width ~70-75 but use opening width for worst case",
+      "unit": "cm"
+    },
+    "window_swing_radius": {
+      "nominal": 75,
+      "min": 70,
+      "max": 95,
+      "tag": "ESTIMATED",
+      "note": "Approx equal to window width, but test 70-95",
+      "unit": "cm"
+    },
+    "window_sill_height": {
+      "nominal": 100,
+      "min": 90,
+      "max": 110,
+      "tag": "ESTIMATED",
+      "note": "90-110 cm",
+      "unit": "cm"
+    },
+    "window_recess_depth": {
+      "nominal": 10,
+      "min": 5,
+      "max": 15,
+      "tag": "ESTIMATED",
+      "note": "Wall below window recessed, depth unknown 5-15",
+      "unit": "cm"
+    },
+    "door_width": {
+      "nominal": 80,
+      "min": 70,
+      "max": 90,
+      "tag": "ESTIMATED",
+      "note": "Range 0.70-0.90, inward, hinged NORTH jamb",
+      "unit": "cm"
+    },
+    "door_swing_radius": {
+      "nominal": 80,
+      "min": 70,
+      "max": 90,
+      "tag": "ESTIMATED",
+      "note": "Equal to door width",
+      "unit": "cm"
+    },
+    "wall_below_window": {
+      "nominal": 88,
+      "min": 71,
+      "max": 100,
+      "tag": "DERIVED",
+      "formula": "window_plus_below - window_width",
+      "unit": "cm"
+    },
+    "north_corner_length_east_wall": {
+      "nominal": 28,
+      "min": 16,
+      "max": 40,
+      "tag": "DERIVED",
+      "formula": "north_plus_door - door_width",
+      "unit": "cm",
+      "note": "This should match NE corner length estimate ~26 cm; derived range 16-40 overlaps, good consistency check"
+    }
+  },
+  "wall_corners": {
+    "depth": {
+      "nominal": 10,
+      "min": 8,
+      "max": 12,
+      "tag": "ESTIMATED",
+      "note": "Protrusion into room",
+      "unit": "cm"
+    },
+    "NW_length_along_west": {
+      "nominal": 40,
+      "min": 35,
+      "max": 45,
+      "tag": "ESTIMATED",
+      "note": "By eye 40 cm",
+      "unit": "cm"
+    },
+    "NE_length_along_east": {
+      "nominal": 26,
+      "min": 20,
+      "max": 32,
+      "tag": "ESTIMATED",
+      "note": "By eye 26 cm, should align with north_corner_length_east_wall",
+      "unit": "cm"
+    },
+    "E_lower_length_along_east": {
+      "nominal": 60,
+      "min": 50,
+      "max": 70,
+      "tag": "ESTIMATED",
+      "note": "By eye 60 cm, east wall lower part",
+      "unit": "cm"
+    },
+    "NW_width_along_north": {
+      "nominal": 10,
+      "min": 8,
+      "max": 12,
+      "tag": "ESTIMATED",
+      "note": "Same as depth",
+      "unit": "cm"
+    },
+    "NE_width_along_north": {
+      "nominal": 10,
+      "min": 8,
+      "max": 12,
+      "tag": "ESTIMATED",
+      "note": "Same as depth",
+      "unit": "cm"
+    },
+    "E_lower_width_along_south_north": {
+      "nominal": 10,
+      "min": 8,
+      "max": 12,
+      "tag": "ESTIMATED",
+      "note": "Protrusion west from east wall",
+      "unit": "cm"
+    }
+  },
+  "other": {
+    "ceiling_height": {
+      "nominal": 270,
+      "min": 260,
+      "max": 290,
+      "tag": "ESTIMATED",
+      "note": "2.60-2.90, do NOT propose loft >2.60",
+      "unit": "cm"
+    },
+    "floor_tile_size": {
+      "nominal": 40,
+      "min": 33,
+      "max": 45,
+      "tag": "ESTIMATED",
+      "note": "Diagonal tiles 40x40, could be 33 or 45",
+      "unit": "cm"
+    },
+    "skirting_height": {
+      "nominal": 9,
+      "min": 8,
+      "max": 10,
+      "tag": "ESTIMATED",
+      "note": "8-10 cm high",
+      "unit": "cm"
+    },
+    "skirting_thickness": {
+      "nominal": 1.2,
+      "min": 1.0,
+      "max": 1.5,
+      "tag": "ESTIMATED",
+      "note": "1-1.5 cm thick",
+      "unit": "cm"
+    },
+    "socket_height": {
+      "nominal": 30,
+      "min": 25,
+      "max": 35,
+      "tag": "ESTIMATED",
+      "note": "West wall near SW corner ~30 cm above floor",
+      "unit": "cm"
+    },
+    "socket_distance_from_SW": {
+      "nominal": 35,
+      "min": 30,
+      "max": 40,
+      "tag": "ESTIMATED",
+      "note": "30-40 cm from SW corner along west wall",
+      "unit": "cm"
+    },
+    "damp_zone": {
+      "location": "base of west wall near SW corner and centre",
+      "avoid_wood": true,
+      "tag": "ESTIMATED"
+    }
+  },
+  "delivery": {
+    "address": "UNKNOWN",
+    "assumption": "mainland Italy, standard home delivery",
+    "access_path": "UNKNOWN, assume standard 80 cm doors, normal stairwell",
+    "tag": "UNKNOWN"
+  },
+  "worst_case_rules": {
+    "must_fit_use": "unfavourable end: smaller room (min S, min W), wider swings (max window, max door), deeper corners (max depth, max lengths), lower ceiling (min)",
+    "best_case": "opposite: larger room, smaller swings, shallower corners, higher ceiling"
+  },
+  "computed": {
+    "free_floor_area_cm2": {
+      "nominal": 56510,
+      "worst": 53940,
+      "best": 57414
+    },
+    "free_floor_area_m2": {
+      "nominal": 5.651,
+      "worst": 5.394,
+      "best": 5.741
+    },
+    "usable_wall_lengths": {
+      "south_wall": {
+        "nominal": 218,
+        "note": "Full length, but skirting and socket/damp near SW"
+      },
+      "west_wall_below_window": {
+        "nominal": 88,
+        "min": 71,
+        "max": 100,
+        "note": "From south wall to window south edge"
+      },
+      "west_wall_gap_NW_to_window": {
+        "nominal": 57,
+        "min": 51,
+        "max": 63,
+        "note": "Gap between NW corner south face and window north edge"
+      },
+      "east_wall_below_door": {
+        "nominal": 157,
+        "min": 156,
+        "max": 158
+      }
+    },
+    "consistency_checks": [
+      "North wall between corners 197 vs computed 10+208=218? Computed total north width = south total = 218, between = 198 = 198, nominal 197 => diff 1",
+      "NE corner length derived 28 vs estimated 26 => diff 2",
+      "West wall total 265 = north_to_window 97 + window_plus_below 168 => 265",
+      "East wall total 265 = east_below_door 157 + north_plus_door 108 => 265"
+    ]
+  }
+}

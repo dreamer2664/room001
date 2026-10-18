@@ -1,0 +1,4 @@
+exact_name,product_code,url,price_eur,date_checked,outer_dimensions_WxDxH_cm,mattress_size,notes
+"MALM Struttura letto 90x200 bianco",MALM-90,https://www.ikea.com/it/it/p/malm-struttura-letto-alta-bianco-s29035254/,199,2026-10-18,97x207x100,90x200,199€ - outer 97x207 - fits? 207 length > south wall 218? 207<218 fits along south with 11cm leftover - but worst case 211, 207<211 fits with 4cm leftover - tight
+"SONGESAND Struttura letto 80x200 bianco",SONGESAND-80,https://www.ikea.com/it/it/p/songesand-struttura-letto-bianco-s09241245/,149,2026-10-18,87x207x88,80x200,149€ - 87x207 outer - 87 depth vs 85 needed - good
+"NEIDEN Struttura letto pino 80x200",NEIDEN-80,https://www.ikea.com/it/it/p/neiden-struttura-letto-pino-s09248778/,69,2026-10-18,85x205x80,80x200,69€ - cheapest - 85x205 outer - 205 length - south wall 218 fits with 13cm leftover - worst 211 fits with 6cm
